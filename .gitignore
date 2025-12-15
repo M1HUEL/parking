@@ -8,6 +8,10 @@ node_modules/
 !.yarn/releases
 !.yarn/versions
 
+# Next.js build output
+.next
+/out
+
 # testing
 /coverage
 
@@ -26,3 +30,7 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
